@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    scrollbar-width: none ;
+}
+
+/*<<<<<<<<<<<<<< Home Page  >>>>>>>>>>>>>>>>>>>*/
+
+.upper {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-content: space-around;
+    ;
+    padding-left: 22rem;
+    background: black;
+    /* border: 1px solid red; */
+}
+
+.upper .left {
+    margin-top: 0.5625rem;
+    margin-bottom: 0.5625rem;
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.upper a {
+    color: rgb(255, 255, 255);
+}
+
+.upper .right {
+    margin-top: 0.5625rem;
+    margin-bottom: 0.5625rem;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+/*--------------- Navbar ------------------*/
+
+.nav-bar {
+    width: 100%;
+    height: 5.75rem;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+
+.left-nav-bar {
+    width: 45%;
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.logo {
+    width: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid blue; */
+}
+
+.logo h1 {
+    margin-left: 3rem;
+    font-weight: 900;
+    /* border: 1px solid green; */
+}
+
+.menu {
+    width: 66%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 1rem;
+    /* border: 2px solid rgb(255, 217, 0); */
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+
+.right-nav-bar {
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+
+.search-box {
+    align-items: center;
+    width: 70%;
+    height: 3rem;
+    display: inline-flex;
+    padding: 0 1rem;
+    border-radius: 25px;
+    background-color: rgb(240, 240, 240);
+}
+
+.right-nav-bar input {
+    width: 100%;
+    border: 0;
+    outline: none;
+    font-size: 0.8rem;
+    background: transparent;
+    color: gray;
+    margin-left: 0.7rem;
+}
+
+.search-box #icon{
+    color: rgba(93, 94, 95, 0.712);
+    font-size: 1.3rem;
+}
+
+.cart-login {
+    margin-right: 2rem;
+    /* border: 2PX SOLID BLUE; */
+}
+
+.cart-login #cart {
+    margin-right: 0.7rem;
+}
+
+/*------------------- front-page  ---------------*/
+
+.front-part{
+    background-image: url(images/background.png);
+    width: 100%;
+    height: 650px;
+}
+
+.front-part .heading{
+    width: 50%;
+    padding-top: 5rem;
+    padding-left: 4rem;
+    /* border: 1px solid red; */
+}
+
+.front-part .heading h1{
+    font-weight: 900;
+    font-size: 4.25rem;
+    line-height: 4rem;
+    /* border: 1px solid green; */
+}
+
+.front-part .details{
+    width: 50%;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    /* border: 1px solid red; */
+}
+
+.front-part .details p{
+    color: rgba(65, 67, 68, 0.747);
+}
+
+.button1{
+    margin: 2rem 0 0 5rem;
+}
+
+.button1 button{
+    padding: 1.125rem 4.375rem 1.125rem 4.375rem ;
+    font-size: 15px;
+    border: 0;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.numbers{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5rem;
+    margin-top: 4rem;
+    /* border: 2px double red ; */
+}
+
+.numbers h3{
+    font-size: 2.5rem;
+}
+
+.numbers p{
+    font-size: 1rem;
+    color: rgba(52, 54, 54, 0.432);
+}
+
+/*----------- Brand Bar  -----------*/
+
+.brands{
+    height: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+}
+
+/*------------------- New Arrivals  -------------------*/
+
+.arrivals .heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    /* border: 1px solid red; */
+}
+    
+.arrivals .heading h2{
+    font-size: 3rem;
+    font-weight: 800;
+    /* border: 1px solid green; */
+}
+
+.collections1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+    /* border: 1px solid red; */
+}
+
+.name-details .name{
+    padding-top: 1rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: 800;
+    /* border: 1px solid red;  */
+}
+
+.name-details .stars{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(255,198,51);
+}
+.name-details .stars #rate{
+    color: black;
+    margin-left: 5px;
+}
+
+.name-details .price{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.name-details .price .block{
+    color: rgba(88, 88, 84, 0.76);
+}
+.name-details .price p{
+    font-size: 0.8rem;
+    padding: 7px 8px 4px 8px;
+    color: red;
+    background-color: rgb(240, 210, 210);
+    border-radius: 30px;
+    /* border: 1px solid red; */
+}
+
+.arrivals .button2{
+    display: flex;
+    justify-content: center;
+}
+
+.button2 button{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 1rem 5rem 1rem 5rem ;
+    background-color: white;
+    border: 1px solid rgba(170, 168, 168, 0.37);
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.arrivals{
+    margin-bottom: 5rem;
+    /* box-shadow: 0 0.5px rgba(173, 171, 171, 0.952); */
+}
+
+#line{
+    width: 92%;
+    margin-left: 45px;
+} 
+
+/*------------------- Drees Style  --------------*/
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .upper {
+
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .upper .left {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .upper .right {
+        display: none;
+    }
+}
+
+/* Media query for mobile devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .upper .left {
+        font-size: 0.7rem;
+    }
+
+    .upper .right {
+        display: none;
+    }
+
+}
