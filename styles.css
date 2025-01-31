@@ -217,7 +217,7 @@
     
 .arrivals .heading h2{
     font-size: 3rem;
-    font-weight: 800;
+    font-weight: 900;
     /* border: 1px solid green; */
 }
 
@@ -292,6 +292,80 @@
 } 
 
 /*------------------- Drees Style  --------------*/
+
+.dress-style{
+    width: 85%;
+    /* height: 866px; */
+    margin-left: 6.3rem;
+    background-color: rgb(240,240,240);
+    border-radius: 40px;
+}
+
+.dress-style .heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    /* border: 1px solid red; */
+}
+    
+.dress-style .heading h2{
+    font-size: 3rem;
+    font-weight: 900;
+    /* border: 1px solid green; */
+}
+
+.collections2 .image img{
+    width: 404px;
+    height: 286px;
+    margin-left: 5rem;
+}
+
+
+
+
+
+
+
+
+/*---------------- Our Happy Customer  -----------------*/
+
+.happy-customer{
+    padding-top: 5rem;
+}
+
+.happy-customer .heading{
+    width: 90%;
+    margin-left: 4.3rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.happy-customer .heading h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.happy-customer .heading i{
+    margin: 5px;
+    padding-top: 0.8rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.happy-customer .heading i:hover{
+    color: rgba(128, 128, 128, 0.459);
+}
+
+
+
+    
+
+
+
+
+
 
 
 
