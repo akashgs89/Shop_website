@@ -317,31 +317,49 @@
     /* border: 1px solid green; */
 }
 
-.collections2 .image img{
-    width: 404px;
-    height: 286px;
-    margin-left: 5rem;
+.collections2{
+    display: grid;
+    grid-template-columns: repeat(3,0.2fr);
+    padding: 10px;
+    padding-bottom: 20px;
+    gap: 20px;
 }
 
+.collections2 .formal{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
 
+.collections2 .party{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
 
+.collections2 .gym{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
 
+.party img, .formal img, .gym img{
+    width: 100%;
+}
 
-
-
-
+.collections2 .image img{
+    height: 300px;
+}
 /*---------------- Our Happy Customer  -----------------*/
 
 .happy-customer{
-    padding-top: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
 }
 
 .happy-customer .heading{
     width: 90%;
     margin-left: 4.3rem;
+    margin-bottom: 1.5rem;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
 }
 
 .happy-customer .heading h2{
@@ -352,12 +370,51 @@
     margin: 5px;
     padding-top: 0.8rem;
     font-size: 1.6rem;
+    font-weight: 600;
     cursor: pointer;
 }
+
 .happy-customer .heading i:hover{
     color: rgba(128, 128, 128, 0.459);
 }
 
+.feedback-box .feedback{
+    border: 1px solid rgba(163, 167, 163, 0.342);
+    border-radius: 20px;
+    height: 240px;
+    padding: 40px;
+}
+
+.star{
+    width: 350px;
+    margin-bottom: 1.5rem;
+    /* border: 1px solid red; */
+}
+
+.star i{
+    color: rgb(255,198,51);
+    font-size: 1.25rem;
+    
+}
+
+.name{
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.name i{
+    margin-bottom: 1rem;
+    color: green;
+}
+
+.feedback-box{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 10px;
+}
 
 
     
